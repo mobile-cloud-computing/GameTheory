@@ -17,7 +17,7 @@ In order to use the toolbox we must define the parameters of the game in a data 
 	* Fitness function
 
 
-The following examples are included in the 'test' directory:
+The following examples are included in the main directory:
 
 	'GameCoalition.m': the main implementation of our game using PDTOOLBOX
 
