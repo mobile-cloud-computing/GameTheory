@@ -6,38 +6,7 @@ PDToolbox is a matlab implementation of some evolutionary dynamics from game the
 This toolbox is designed to facilitate the implementation of any game, regardless of the number of populations, strategies per population, and fitness function. It has some pre-build methods to implement different dynamics, revision protocols, and to plot the evolution of the state of each population. This software is distributed under BSD license.
 
 
-## Installation
-
-1. Download files from the 'git' repository with the following command:
-
-
-	git clone https://github.com/carlobar/PDToolbox_matlab
-
-
-Or download and extract the files directly from the following link: 
-
-
-	https://github.com/carlobar/PDToolbox_matlab/archive/master.zip
-
-
-2. Open matlab and add the path of the following directories:
-
-	path(path, '[download directory]/PDToolbox_matlab')
-
-	path(path, '[download directory]/PDToolbox_matlab/dynamics')
-
-	path(path, '[download directory]/PDToolbox_matlab/graphs')
-
-	path(path, '[download directory]/PDToolbox_matlab/test')
-
-
-The path can be verified with the command 'path'.
-
-The path can be added automatically by running 'add_path.m'.
-
-
-
-## Running the toolbox
+## Running the Game Theory Optimization
 
 In order to use the toolbox we must define the parameters of the game in a data structure. Some parameters that must be defined are: 
 
@@ -50,19 +19,11 @@ In order to use the toolbox we must define the parameters of the game in a data 
 
 The following examples are included in the 'test' directory:
 
-	'test1.m': game with one population and three strategies per population.
+	'GameCoalition.m': the main implementation of our game using PDTOOLBOX
 
-	'test2.m': game with two populations and two strategies per population.
+	'MyFitness.m': The main fitness function that is used for the optimization.
 
-	'test3.m': game with one population, three strategies per population, and combined dynamics.
-
-	'test_finite_population1.m': a game with small number of agents per population.
-
-	'test_maximization.m': application to a maximization problem using one population.
-
-	'test_maximization_b.m': application to a maximization problem using multiple populations.
-
-	'electricity grid/test_electricity_system.m': application to demand response programs.
+	Other test / fitness files are from PDTOOL BOX for learning purposes.
 
 
 
