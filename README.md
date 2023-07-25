@@ -1,4 +1,4 @@
-## PDToolbox
+## PDToolbox - MATLAB 2014 R2
 
 
 PDToolbox is a matlab implementation of some evolutionary dynamics from game theory. The current version supports the implementation of replicator dynamics, Maynard Smith's replicator dynamics, Smith dynamics, logit dynamics, and Brown-von Neumann-Nash dynamics. Also, it can be used to run revision protocols, that is, population games with small number of agents per population. 
