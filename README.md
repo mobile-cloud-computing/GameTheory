@@ -22,9 +22,10 @@ The following examples are included in the 'test' directory:
 	'GameCoalition.m': the main implementation of our game using PDTOOLBOX
 
 	'MyFitness.m': The main fitness function that is used for the optimization.
+ 	There are some files for calculation of distance / angular similarities and also saving CSV file for machine learning.
 
 	Other test / fitness files are from PDTOOL BOX for learning purposes.
-
+	
 
 
 ## Documentation
